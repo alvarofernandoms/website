@@ -800,7 +800,7 @@ msgid "Search results for %{query}"
 msgstr "Suchergebnisse für %{query}"
 
 #: lib/sign_dict_web/controllers/embed_controller.ex:38
-#: lib/sign_dict_web/controllers/entry_controller.ex:127
+#: lib/sign_dict_web/controllers/entry_controller.ex:129
 msgid "Sign for %{sign}"
 msgstr "Gebärde für %{sign}"
 
@@ -876,7 +876,7 @@ msgstr "Details >"
 msgid "Open SignDict"
 msgstr "Öffne SignDict"
 
-#: lib/sign_dict_web/controllers/entry_controller.ex:141
+#: lib/sign_dict_web/controllers/entry_controller.ex:143
 msgid "Sorry, I could not find an entry for this."
 msgstr "Entschuldigung, leider konnte ich diesen Eintrag nicht finden."
 
@@ -1014,7 +1014,7 @@ msgstr "Du denkst ein Eintrag fehlt? Dann trage diesen gerne hier ein. Nachdem d
 msgid "Missing an entry? Do you know how to sign it? Then please add it with the help of your webcam."
 msgstr "Fehlt ein Eintrag? Weißt du, wie dieser gebärdet wird? Dann füge diesen Bitte mit Hilfe deiner Webcam hinzu."
 
-#: lib/sign_dict_web/controllers/entry_controller.ex:27
+#: lib/sign_dict_web/controllers/entry_controller.ex:28
 #: lib/sign_dict_web/templates/shared/footer.html.eex:41
 msgid "All entries"
 msgstr "Alle Einträge"
@@ -1072,7 +1072,7 @@ msgstr "Video ablehnen"
 msgid "Rejection reason"
 msgstr "Ablehnungsgrund"
 
-#: lib/sign_dict_web/controllers/entry_controller.ex:123
+#: lib/sign_dict_web/controllers/entry_controller.ex:125
 msgid "Watch this sign for \"%{sign}\" on @signdict"
 msgstr "Schau dir diese Gebärde für \"%{sign}\" auf @signdict an"
 
@@ -1255,7 +1255,13 @@ msgid "New videos"
 msgstr "Neue Videos"
 
 #, elixir-format
-#: lib/sign_dict_web/controllers/entry_controller.ex:42
+#: lib/sign_dict_web/controllers/entry_controller.ex:44
 #: lib/sign_dict_web/templates/entry/latest.html.eex:5
 msgid "Recently created videos"
 msgstr "Zuletzt angelegte Videos"
+
+#, elixir-format
+#: lib/sign_dict_web/templates/page/index.html.eex:31
+#: lib/sign_dict_web/templates/shared/searchbar.html.eex:6
+msgid "Search a word to see the GSL sign"
+msgstr "Suche ein Wort um das DGS Schild zu sehen"
